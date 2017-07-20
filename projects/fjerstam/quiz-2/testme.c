@@ -5,14 +5,33 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+    // ASCII range is 32 to 127. 127-32=95
+    char c = rand() % 95;
+    
+    // Add 32 to get back to ASCII chars
+    c += 32;
+    return c;
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+    int i;
+    char c;
+    int strLength = 6;
+    char string[strLength];
+    int range = 26; //26 letters
+    
+    i = 0;
+    while(i < strLength-1) {
+        c = rand() % range;
+        c += 'a'; // move char to letters ASCII range
+        string[i] = c;
+        i += 1;
+    }
+
+    string[i] = '\0';
+    char *s = string;
+    return s;
 }
 
 void testme()
