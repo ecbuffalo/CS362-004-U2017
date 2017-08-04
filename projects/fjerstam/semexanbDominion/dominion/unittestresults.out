@@ -1,0 +1,322 @@
+*************************
+* Unit Test 1 starting...
+*************************
+Comparing 1 and 1
+isGameOver(): PASS if no provinces
+Comparing 1 and 1
+isGameOver(): PASS if 3 empty supplies
+Comparing 0 and 0
+isGameOver(): PASS if game not over
+*************************
+* Unit Test 1 ending...
+* 3 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 2 starting...
+*************************
+Comparing 10 and 10
+scoreFor(): PASS when comprised of Hand
+Comparing 5 and 10
+scoreFor(): FAIL when comprised of Discard
+Comparing 0 and 10
+scoreFor(): FAIL when comprised of Deck
+*************************
+* Unit Test 2 ending...
+* 1 Passed tests
+* 2 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 3 starting...
+*************************
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Deck
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Hand
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Discard
+*************************
+* Unit Test 3 ending...
+* 3 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 4 starting...
+*************************
+Comparing 6 and 6
+updateCoins(): PASS for multiple coin types
+Comparing 3 and 3
+updateCoins(): PASS for multiple copper coins
+Comparing 6 and 6
+updateCoins(): PASS for multiple silver coins
+Comparing 9 and 9
+updateCoins(): PASS for multiple gold coins
+*************************
+* Unit Test 4 ending...
+* 4 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 1 starting...
+*************************
+Testing Smithy. Player starting with 5 cards
+Player ended with 8 cards
+Comparing 8 and 7
+smithEffect(): FAIL when executing smithy card
+*************************
+* Card Test 1 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 2 starting...
+*************************
+Testing Great Hall. Player starting with 5 cards and 3 actions
+Comparing 5 and 5
+Comparing 4 and 3
+greatHallEffect(): FAIL when executing great hall card
+*************************
+* Card Test 2 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 3 starting...
+*************************
+Testing Village. Player starting with 5 cards and 1 actions
+Comparing 5 and 5
+Comparing 2 and 2
+villageEffect(): PASS when executing village card
+*************************
+* Card Test 3 ending...
+* 1 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 4 starting...
+*************************
+Testing Adventurer. Player starting with 5 cards
+Comparing 7 and 3
+adventurerEffect(): FAIL when executing adventurer card
+*************************
+* Card Test 4 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 1 starting...
+*************************
+Comparing 1 and 1
+isGameOver(): PASS if no provinces
+Comparing 1 and 1
+isGameOver(): PASS if 3 empty supplies
+Comparing 0 and 0
+isGameOver(): PASS if game not over
+*************************
+* Unit Test 1 ending...
+* 3 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 2 starting...
+*************************
+Comparing 10 and 10
+scoreFor(): PASS when comprised of Hand
+Comparing 5 and 10
+scoreFor(): FAIL when comprised of Discard
+Comparing 0 and 10
+scoreFor(): FAIL when comprised of Deck
+*************************
+* Unit Test 2 ending...
+* 1 Passed tests
+* 2 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 3 starting...
+*************************
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Deck
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Hand
+Comparing 3 and 3
+fullDeckCount(): PASS when comprised of Discard
+*************************
+* Unit Test 3 ending...
+* 3 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Unit Test 4 starting...
+*************************
+Comparing 6 and 6
+updateCoins(): PASS for multiple coin types
+Comparing 3 and 3
+updateCoins(): PASS for multiple copper coins
+Comparing 6 and 6
+updateCoins(): PASS for multiple silver coins
+Comparing 9 and 9
+updateCoins(): PASS for multiple gold coins
+*************************
+* Unit Test 4 ending...
+* 4 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 1 starting...
+*************************
+Testing Smithy. Player starting with 5 cards
+Player ended with 8 cards
+Comparing 8 and 7
+smithEffect(): FAIL when executing smithy card
+*************************
+* Card Test 1 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 2 starting...
+*************************
+Testing Great Hall. Player starting with 5 cards and 3 actions
+Comparing 5 and 5
+Comparing 4 and 3
+greatHallEffect(): FAIL when executing great hall card
+*************************
+* Card Test 2 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 3 starting...
+*************************
+Testing Village. Player starting with 5 cards and 1 actions
+Comparing 5 and 5
+Comparing 3 and 2
+villageEffect(): FAIL when executing village card
+*************************
+* Card Test 3 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+*************************
+* Card Test 4 starting...
+*************************
+Testing Adventurer. Player starting with 5 cards
+Comparing 7 and 3
+adventurerEffect(): FAIL when executing adventurer card
+*************************
+* Card Test 4 ending...
+* 0 Passed tests
+* 1 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+

@@ -1,0 +1,17 @@
+*************************
+* Random Card Test 2 starting...
+* Testing Village card...
+* Performing 1000 tests...
+*************************
+*************************
+* Random Card Test 2 ending...
+* 1000 Passed tests
+* 0 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+

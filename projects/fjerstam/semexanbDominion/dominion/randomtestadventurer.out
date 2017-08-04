@@ -1,0 +1,16 @@
+*************************
+* Random Adventurer Test starting...
+* Performing 1000 tests...
+*************************
+*************************
+* Random Adventurer Test ending...
+* 8 Passed tests
+* 992 Failed tests
+*************************
+File 'dominion.c'
+Lines executed:0.00% of 637
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
