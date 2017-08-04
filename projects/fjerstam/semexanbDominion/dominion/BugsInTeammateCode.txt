@@ -1,0 +1,7 @@
+Bugs found in dominion.c
+
+Bug 1:
+The first bug is found in playSmithy() function on line 591. The function needs to add 3 cards to the current hand and appears to be doing so via a for loop. the loop starts its counter at 0 and goes until <=3 rather than <3 which leads to too many cards being added. 
+
+Bug 2:
+The second bug found was in playVillage() function, specifically on line 601. The function needs to add 2 actions to the current hand but only increases 1 action. 
