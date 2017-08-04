@@ -1172,7 +1172,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 int smithyEffect(int currentPlayer, int handPos, struct gameState *state) {
     int i;
     //+3 Cards
-    for (i = 1; i < 3; i++)
+    for (i = 0; i < 3; i++)
     {
         drawCard(currentPlayer, state);
     }
@@ -1193,7 +1193,7 @@ int adventurerEffect(int currentPlayer, struct gameState *state) {
         }
         drawCard(currentPlayer, state);
         cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-        if (cardDrawn == copper || cardDrawn == silver){
+        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold){
             drawntreasure++;
         }
         else{
@@ -1214,7 +1214,7 @@ int villageEffect(int currentPlayer, int handPos, struct gameState *state) {
     drawCard(currentPlayer, state);
     
     //+2 Actions
-    state->numActions =  2;
+    state->numActions =  state->numActions + 2;
     
     //discard played card from hand
     discardCard(handPos, currentPlayer, state, 0);
@@ -1226,7 +1226,7 @@ int greatHallEffect(int currentPlayer, int handPos, struct gameState *state) {
     drawCard(currentPlayer, state);
     
     //+1 Actions
-    state->numActions + 1;
+    state->numActions = state->numActions + 1;
     
     //discard card from hand
     discardCard(handPos, currentPlayer, state, 0);
