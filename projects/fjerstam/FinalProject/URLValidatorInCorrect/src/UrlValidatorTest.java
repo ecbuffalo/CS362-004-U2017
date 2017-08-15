@@ -89,10 +89,56 @@ public class UrlValidatorTest extends TestCase {
    
    public void testIsValid()
    {
-	   for(int i = 0;i<10000;i++)
-	   {
-		   
-	   }
+       System.out.println("****Random Testing*****");
+
+       Random rand = new Random();
+       int valid = 0;
+       int notValid = 0;
+       int invalid = 0;
+       int notInvalid = 0;
+
+       UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+
+       String[] schemeValid = {"http://", "ftp://", "h3t://", ""};
+       String[] schemeInvalid = {"3ht://", "http:/", "http:",  "http/", "://"};
+       String[] authorityValid = {"www.google.com", "go.com", "go.au", "0.0.0.0", "255.255.255.255", "255.com", "go.cc"};
+       String[] authorityInvalid = {"256.256.256.256", "1.2.3.4.5", "1.2.3.4.", "1.2.3", ".1.2.3.4", "go.a", "go.a1a",
+               "go.1aa", "aaa.", ".aaa", "aaa", ""};
+       String[] portValid = {":80", ":65535", ":0", "", ":65636"};
+       String[] portInvalid = {":-1", ":65a"};
+       String[] pathValid = {"/test1", "/t123", "/$23", "/test1/", "", "/test1/file"};
+       String[] pathInvalid = {"/..", "/../", "/..//file", "/test1//file"};
+       String[] query = {"?action=view", "?action=edit&mode=up", ""};
+
+       for(int i = 0;i<10000;i++)
+       {
+           int schemeIndex = rand.nextInt(schemeValid.length);
+           int authorityIndex = rand.nextInt(authorityValid.length);
+           int portIndex = rand.nextInt(portValid.length);
+           int pathIndex = rand.nextInt(pathValid.length);
+           int queryIndex = rand.nextInt(query.length);
+           System.out.println(urlVal.isValid(schemeValid[schemeIndex] + authorityValid[authorityIndex] + portValid[portIndex]
+                   + pathValid[pathIndex] + query[queryIndex]));
+           if(urlVal.isValid(schemeValid[schemeIndex] + authorityValid[authorityIndex] + portValid[portIndex]
+                   + pathValid[pathIndex] + query[queryIndex])){
+               valid++;
+           } else notValid++;
+
+           schemeIndex = rand.nextInt(schemeInvalid.length);
+           authorityIndex = rand.nextInt(authorityInvalid.length);
+           portIndex = rand.nextInt(portInvalid.length);
+           pathIndex = rand.nextInt(pathInvalid.length);
+           queryIndex = rand.nextInt(query.length);
+           System.out.println(urlVal.isValid(schemeInvalid[schemeIndex] + authorityInvalid[authorityIndex] + portInvalid[portIndex]
+                   + pathInvalid[pathIndex] + query[queryIndex]));
+           if (urlVal.isValid(schemeInvalid[schemeIndex] + authorityInvalid[authorityIndex] + portInvalid[portIndex]
+                   + pathInvalid[pathIndex] + query[queryIndex])) {
+               notInvalid++;
+           } else invalid++;
+       }
+
+       System.out.println("Valid Url test is valid " + valid + " times and invalid " + notValid + " times");
+       System.out.println("Invalid Url test is valid " + notInvalid + " times and invalid " + invalid + " times");
    }
    
    public void testAnyOtherUnitTest()
