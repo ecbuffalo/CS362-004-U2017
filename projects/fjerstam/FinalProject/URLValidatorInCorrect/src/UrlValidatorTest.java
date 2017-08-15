@@ -74,7 +74,7 @@ public class UrlValidatorTest extends TestCase {
    public void testYourSecondPartition(){
        System.out.println("******Second Partition*******");
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-       String[] urlValid = {"www.google.com", "go.com", "go.au", "0.0.0.0", "255.255.255.255", "255.com", "go.cc"};
+       String[] urlValid = {"localhost","www.google.com", "go.com", "go.au", "0.0.0.0", "255.255.255.255", "255.com", "go.cc"};
        String[] urlInvalid = {"256.256.256.256", "1.2.3.4.5", "1.2.3.4.", "1.2.3", ".1.2.3.4", "go.a", "go.a1a", "go.1aa", "aaa.", ".aaa", "aaa", ""};
 
        System.out.println("***Should be True***");
