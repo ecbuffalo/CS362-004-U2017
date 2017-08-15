@@ -47,8 +47,9 @@ public class UrlValidatorTest extends TestCase {
 	   System.out.println(urlVal.isValid("http://amazon.com:800"));
 	   System.out.println(urlVal.isValid("http://amazon.com:80/page"));
 	   System.out.println(urlVal.isValid("http://www.amazon.com:80/page?test=1"));
-	   
-	   
+	   System.out.println(urlVal.isValid("www.amazon.com:80/page"));
+	   System.out.println(urlVal.isValid("http://localhost:80/page"));
+	   System.out.println(urlVal.isValid("http://localhost/page?test=1"));
    }
    
    
