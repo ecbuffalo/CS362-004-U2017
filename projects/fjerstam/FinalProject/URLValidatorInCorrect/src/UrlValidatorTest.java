@@ -16,6 +16,8 @@
  */
 
 
+import java.util.Random;
+
 import junit.framework.TestCase;
 
 
