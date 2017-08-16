@@ -56,6 +56,8 @@ public class UrlValidatorTest extends TestCase {
    public void testYourFirstPartition()
    {
        System.out.println("******First Partition*******");
+       System.out.println("*****Partition Test for Schemes*****");
+
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
        String[] schemeValid = {"http://", "ftp://", "h3t://", ""};
        String[] schemeInvalid = {"3ht://", "http:/", "http:",  "http/", "://"};
@@ -73,6 +75,8 @@ public class UrlValidatorTest extends TestCase {
    
    public void testYourSecondPartition(){
        System.out.println("******Second Partition*******");
+       System.out.println("*****Partition Test for Authority*****");
+
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
        String[] urlValid = {"localhost","www.google.com", "go.com", "go.au", "0.0.0.0", "255.255.255.255", "255.com", "go.cc"};
        String[] urlInvalid = {"256.256.256.256", "1.2.3.4.5", "1.2.3.4.", "1.2.3", ".1.2.3.4", "go.a", "go.a1a", "go.1aa", "aaa.", ".aaa", "aaa", ""};
@@ -146,7 +150,15 @@ public class UrlValidatorTest extends TestCase {
    
    public void testAnyOtherUnitTest()
    {
-	   
+       System.out.println("******Test Any Other Unit Test*******");
+       System.out.println("*****Partition Test for Query*****");
+       UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+       String[] queryValid = {"?action=view", "?action=edit&mode=up", ""};
+
+       System.out.println("***Should be True***");
+       for(int i = 0; i < queryValid.length; i++) {
+           System.out.println(urlVal.isValid("http://www.google.com" + queryValid[i]));
+       }
    }
    /**
     * Create set of tests by taking the testUrlXXX arrays and
