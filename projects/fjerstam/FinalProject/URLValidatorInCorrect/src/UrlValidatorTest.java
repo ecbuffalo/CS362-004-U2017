@@ -157,7 +157,14 @@ public class UrlValidatorTest extends TestCase {
 
        System.out.println("***Should be True***");
        for(int i = 0; i < queryValid.length; i++) {
-           System.out.println(urlVal.isValid("http://www.google.com" + queryValid[i]));
+           System.out.println(urlVal.isValid("http://www.google.com/" + queryValid[i]));
+       }
+
+       System.out.println("***Should be False***");
+       for(int i = 0; i < queryValid.length; i++) {
+           System.out.println(urlVal.isValid("256.256.256.256" + queryValid[i]));
+
+
        }
    }
    /**
