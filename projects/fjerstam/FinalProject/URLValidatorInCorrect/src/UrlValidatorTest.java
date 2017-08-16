@@ -50,6 +50,7 @@ public class UrlValidatorTest extends TestCase {
 	   System.out.println(urlVal.isValid("www.amazon.com:80/page"));
 	   System.out.println(urlVal.isValid("http://localhost:80/page"));
 	   System.out.println(urlVal.isValid("http://localhost/page?test=1"));
+       System.out.println(urlVal.isValid("http://256.256.256.256"));
    }
    
    
@@ -92,6 +93,28 @@ public class UrlValidatorTest extends TestCase {
        }
 	   
    }
+
+    public void testYourThirdPartition(){
+        System.out.println("******Third Partition*******");
+        System.out.println("*****Partition Test for TLD*****");
+
+        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+        String[] urlValid = {"www.google", "amazon", "go", "mozilla",};
+        String[] urlInvalid = {"256.256.256.256", "1.2.3.4.5", "1.2.3.4.", "aaa"};
+        String[] urlTLD = {".com",".io",".co",".fr",};
+        String[] urlInvalidTLD = {".a",".a1a",".1aa",".aaa"};
+
+        System.out.println("***Should be True***");
+        for (int i = 0; i < urlValid.length; i++){
+            System.out.println(urlVal.isValid("http://" + urlValid[i] + urlTLD[i]));
+        }
+
+        System.out.println("***Should be False***");
+        for (int i = 0; i < urlInvalid.length; i++){
+            System.out.println(urlVal.isValid("http://" + urlInvalid[i] + urlInvalidTLD[i]));
+        }
+
+    }
    
    
    public void testIsValid()

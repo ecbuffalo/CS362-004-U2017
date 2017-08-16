@@ -24,10 +24,10 @@
       <file leaf-file-name="UrlValidatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UrlValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1542">
-              <caret line="164" column="49" lean-forward="false" selection-start-line="164" selection-start-column="49" selection-end-line="164" selection-end-column="49" />
+            <state relative-caret-position="299">
+              <caret line="103" column="52" lean-forward="false" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
               <folding>
-                <element signature="e#0#7486#0" expanded="true" />
+                <element signature="e#0#8504#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -98,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UrlValidatorTest.testYourSecondPartition">
+  <component name="RunManager" selected="JUnit.UrlValidatorTest.testYourThirdPartition">
     <configuration name="UrlValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="URLValidator" />
@@ -119,14 +119,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UrlValidatorTest.testYourSecondPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UrlValidatorTest.testYourThirdPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="URLValidator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UrlValidatorTest" />
-      <option name="METHOD_NAME" value="testYourSecondPartition" />
+      <option name="METHOD_NAME" value="testYourThirdPartition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -534,12 +534,12 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest.testYourSecondPartition" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest.testYourThirdPartition" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest.testYourSecondPartition" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest.testYourThirdPartition" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.UrlValidatorTest" />
       </list>
     </recent_temporary>
@@ -563,44 +563,44 @@
       <workItem from="1502373239657" duration="25000" />
       <workItem from="1502375184577" duration="3635000" />
       <workItem from="1502726676079" duration="2360000" />
-      <workItem from="1502900724841" duration="901000" />
+      <workItem from="1502900724841" duration="4629000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UrlValidatorTest - 2017.08.16 at 09h 26m 34s.xml">
-      <configuration name="UrlValidatorTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourSecondPartition - 2017.08.16 at 11h 04m 51s.xml">
+      <configuration name="UrlValidatorTest.testYourSecondPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 30m 07s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 10h 56m 48s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 31m 46s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 10h 58m 19s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 32m 03s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 10h 59m 27s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 32m 34s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 10h 59m 48s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 36m 11s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 11h 00m 00s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 38m 16s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 11h 02m 26s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 39m 32s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 11h 02m 44s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testAnyOtherUnitTest - 2017.08.16 at 09h 40m 18s.xml">
-      <configuration name="UrlValidatorTest.testAnyOtherUnitTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 11h 03m 04s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UrlValidatorTest_testManualTest - 2017.08.16 at 09h 26m 10s.xml">
-      <configuration name="UrlValidatorTest.testManualTest" configurationId="JUnit" />
+    <history-entry file="UrlValidatorTest_testYourThirdPartition - 2017.08.16 at 11h 05m 11s.xml">
+      <configuration name="UrlValidatorTest.testYourThirdPartition" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10140000" />
+    <option name="totallyTimeSpent" value="13868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="978" extended-state="0" />
@@ -614,7 +614,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,7 +694,7 @@
         <state relative-caret-position="735">
           <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -713,7 +713,7 @@
         <state relative-caret-position="420">
           <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -740,7 +740,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -759,7 +759,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -778,7 +778,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -802,10 +802,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UrlValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1542">
-          <caret line="164" column="49" lean-forward="false" selection-start-line="164" selection-start-column="49" selection-end-line="164" selection-end-column="49" />
+        <state relative-caret-position="299">
+          <caret line="103" column="52" lean-forward="false" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
           <folding>
-            <element signature="e#0#7486#0" expanded="true" />
+            <element signature="e#0#8504#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
